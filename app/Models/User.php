@@ -7,11 +7,18 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+<<<<<<< HEAD
 use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable implements JWTSubject
 {
     use HasFactory, Notifiable, HasRoles;
+=======
+
+class User extends Authenticatable implements JWTSubject
+{
+    use HasFactory, Notifiable;
+>>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
 
     /**
      * The attributes that are mass assignable.
@@ -24,9 +31,12 @@ class User extends Authenticatable implements JWTSubject
         'password',
     ];
 
+<<<<<<< HEAD
     //Declaring guard name for sptaie/laravel-permissions
     protected $guard_name = 'api';
 
+=======
+>>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -37,8 +47,11 @@ class User extends Authenticatable implements JWTSubject
         'remember_token',
     ];
 
+<<<<<<< HEAD
     protected $appends = ['photo_url'];
 
+=======
+>>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *
@@ -59,6 +72,7 @@ class User extends Authenticatable implements JWTSubject
         return [];
     }
 
+<<<<<<< HEAD
     public function getPermissions()
     {
         return $this->getAllPermissions()->pluck('name');
@@ -77,6 +91,8 @@ class User extends Authenticatable implements JWTSubject
         ]);
     }
 
+=======
+>>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
     /**
      * The attributes that should be cast to native types.
      *
