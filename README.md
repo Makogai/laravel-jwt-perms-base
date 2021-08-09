@@ -3,17 +3,8 @@
 ## Base project with JWT set up
 #### Installation:
 1. `composer install`
-<<<<<<< HEAD
 2. `php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
    `
 3. `php artisan key:generate`
 4. `php artisan jwt:secret`
 5. `php artisan serve`
-=======
-2. `php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"`
-3. `npm install`
-4. `npm run dev`
-5. `php artisan key:generate`
-6. `php artisan jwt:secret`
-7. `php artisan serve`
->>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8

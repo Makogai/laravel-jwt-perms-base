@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "56b24b24b9dfa977cb78ffd8f4aeccbe",
-=======
     "content-hash": "0351ed8a9fd669d8239f695898079c2b",
->>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2974,8 +2970,6 @@
             "time": "2021-06-04T23:47:08+00:00"
         },
         {
-=======
->>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.7",
             "source": {

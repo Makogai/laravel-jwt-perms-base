@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\RegistrationRequest;
-<<<<<<< HEAD
 use App\Http\Resources\UserResource;
-=======
->>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
 use App\Models\User;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
@@ -65,13 +62,9 @@ class AuthController extends Controller
      */
     public function me()
     {
-<<<<<<< HEAD
         return response()->json(UserResource::make(Auth::user()));
 //        return response()->json(auth()->user());
 //        return response()->json(['user' =>Auth::user(), "perms" => Auth::user()->getPermissions()]);
-=======
-        return response()->json(auth()->user());
->>>>>>> 05e7907111da8c5fca88f0407a2d669dfdcb94b8
     }
 
     /**
